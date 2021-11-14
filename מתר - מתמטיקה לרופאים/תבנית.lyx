@@ -113,9 +113,9 @@ status open
 \begin_layout Title
 )
 \numeric on
-67521
+76558
 \numeric off
-( מודלים חישוביים, חישוביות, וסיבוכיות
+( אלגוריתמים בביולוגיה חישובית
 \family roman
 \series medium
 \shape up
@@ -170,33 +170,12 @@ status open
 \end_layout
 
 \begin_layout Author
-שם: גולן שני | ת"ז:
-\family roman
-\series medium
-\shape up
+מגישים: אלונה רימון)תז:(, גולן שני )
 \size normal
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\emph default
 \numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
 315534842
+\numeric off
+(
 \end_layout
 
 \end_inset
@@ -245,204 +224,7 @@ status open
 
 \begin_layout Standard
 א.
- צ
-\begin_inset Quotes erd
-\end_inset
-
-ל: שפה 
-\begin_inset Formula $A$
-\end_inset
-
- שייכת ל-
-\begin_inset Formula $\text{NL}$
-\end_inset
-
- אמ
-\begin_inset Quotes erd
-\end_inset
-
-מ קיים מוודא לוגריתמי בשטח 
-\begin_inset Formula $V$
-\end_inset
-
- כך ש- 
-\begin_inset Formula 
-\[
-A=\{x|\text{ there exists \ensuremath{y} such that \ensuremath{\langle x,y\rangle\in L(V)}}\}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-הוכחה:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Rightarrow$
-\end_inset
-
-: תהי 
-\begin_inset Formula $A$
-\end_inset
-
- שפה, ויהי 
-\begin_inset Formula $V$
-\end_inset
-
- מוודא לוגריתמי בשטח כך ש-
-\begin_inset Formula $A=\{x|\text{ there exists \ensuremath{y} such that \ensuremath{\langle x,y\rangle\in L(V)}}\}$
-\end_inset
-
-.
- עלינו להראות כי 
-\begin_inset Formula $A\in\text{NL}$
-\end_inset
-
-.
- נבנה מ
-\begin_inset Quotes erd
-\end_inset
-
-ט א
-\begin_inset Quotes erd
-\end_inset
-
-ד 
-\begin_inset Formula $N$
-\end_inset
-
- הפועלת באופן הבא לכל קלט 
-\begin_inset Formula $w\in\Sigma^{*}$
-\end_inset
-
-: ננחש עד באורך 
-\begin_inset Formula $n^{k}$
-\end_inset
-
-, נריץ את 
-\begin_inset Formula $\langle w,c\rangle$
-\end_inset
-
- על 
-\begin_inset Formula $V$
-\end_inset
-
-, ונענה כמוה.
  
-\begin_inset Formula $V$
-\end_inset
-
- עובד בשטח לוגריתמי, ולכן גם 
-\begin_inset Formula $N$
-\end_inset
-
-.
- מצאנו מ
-\begin_inset Quotes erd
-\end_inset
-
-ט א
-\begin_inset Quotes erd
-\end_inset
-
-ד העובדת בשטח לוגריתמי ומכריעה את 
-\begin_inset Formula $A$
-\end_inset
-
-.
- לכן 
-\begin_inset Formula $A\in\text{NL}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\Leftarrow$
-\end_inset
-
-: תהי 
-\begin_inset Formula $A\in\text{NL}$
-\end_inset
-
-, ונבנה מוודא לוגריתמי בשטח 
-\begin_inset Formula $V$
-\end_inset
-
- הפועל באופן הבא לכל קלט 
-\begin_inset Formula $\langle w,c\rangle$
-\end_inset
-
-: אם 
-\begin_inset Formula $c$
-\end_inset
-
- איננה קידוד של ריצה של 
-\begin_inset Formula $w$
-\end_inset
-
- על 
-\begin_inset Formula $N$
-\end_inset
-
- נדחה, ואחרת נבצע את הריצה 
-\begin_inset Formula $c$
-\end_inset
-
- של 
-\begin_inset Formula $w$
-\end_inset
-
- על 
-\begin_inset Formula $N$
-\end_inset
-
- ונענה כמוה.
- קיבלנו ש-
-\begin_inset Formula $V$
-\end_inset
-
- מקבל את הקלט אמ
-\begin_inset Quotes erd
-\end_inset
-
-מ 
-\begin_inset Formula $w\in A$
-\end_inset
-
-, ולכן 
-\begin_inset Formula $V$
-\end_inset
-
- הינו מוודא של 
-\begin_inset Formula $A$
-\end_inset
-
-.
- בנוסף, 
-\begin_inset Formula $N$
-\end_inset
-
- פועלת בשטח לוגריתמי, ולכן גם 
-\begin_inset Formula $V$
-\end_inset
-
-.
- כמו כן, צריך לקרוא את העד 
-\begin_inset Formula $c$
-\end_inset
-
- פעם אחת משמאל לימין, ולכן הסרט של העד חוקי.
 \end_layout
 
 \end_body

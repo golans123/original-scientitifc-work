@@ -1,0 +1,30 @@
+A Mathematical Framework for the Science of Medicine
+
+Definition: a surjective (onto) function is a called a disease iff its domain is a physiological space
+(a state of health) and its range is a pathological space (a state of dis-ease).
+
+
+
+
+
+Definition: a random variable X: Omega to R is called a medical feature (measure) iff its domain is a set of results and it's range is the result's appropriate values.
+
+Definition: a vector space R^m is called a physiological space iff all of its elements are...
+
+Definition: a pathological space is a.
+
+
+
+it maps a healthy patient to its corresponding sick patient according to the disease.
+map patient-by-patient or a single patient feature-by-feature? anyway, the function is onto.
+
+
+
+(a set of random variables X: Omega to R, each representing a medical feature.)
+
+Definition: a patient is a.
+
+Claim:
+
+
+week 3 lecture: slide 38: if there are infty solutions the SVD recovers the solution (w) with the minimal norm.
